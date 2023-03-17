@@ -11,6 +11,8 @@
 		A00D8A3229C105C8004C563E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D8A3129C105C8004C563E /* Color+Ext.swift */; };
 		A00D8A3429C11433004C563E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D8A3329C11433004C563E /* RemoteImage.swift */; };
 		A00D8A3629C12134004C563E /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D8A3529C12134004C563E /* AppetizerDetailView.swift */; };
+		A046EF0E29C4F19D000981C9 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046EF0D29C4F19D000981C9 /* APButton.swift */; };
+		A046EF1029C4F368000981C9 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046EF0F29C4F368000981C9 /* XDismissButton.swift */; };
 		A0635C6329B9367400AA82A5 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0635C6229B9367400AA82A5 /* AppetizersApp.swift */; };
 		A0635C6529B9367400AA82A5 /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0635C6429B9367400AA82A5 /* AppetizerTabView.swift */; };
 		A0635C6729B9367700AA82A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0635C6629B9367700AA82A5 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		A00D8A3329C11433004C563E /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		A00D8A3529C12134004C563E /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		A046EF0B29C4E524000981C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A046EF0D29C4F19D000981C9 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		A046EF0F29C4F368000981C9 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		A0635C5F29B9367400AA82A5 /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0635C6229B9367400AA82A5 /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		A0635C6429B9367400AA82A5 /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A046EF0C29C4F18A000981C9 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				A046EF0D29C4F19D000981C9 /* APButton.swift */,
+				A046EF0F29C4F368000981C9 /* XDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		A0635C5629B9367400AA82A5 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +134,7 @@
 		A0A448A529BFF76E00CC7764 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A046EF0C29C4F18A000981C9 /* Buttons */,
 				A00D8A2F29C10504004C563E /* LoadingView.swift */,
 				A0635C6429B9367400AA82A5 /* AppetizerTabView.swift */,
 				A0635C7429B937BE00AA82A5 /* OrderView.swift */,
@@ -204,10 +218,12 @@
 			files = (
 				A0635C7729B9655B00AA82A5 /* Appetizer.swift in Sources */,
 				A0A4489E29BFBE2F00CC7764 /* APError.swift in Sources */,
+				A046EF1029C4F368000981C9 /* XDismissButton.swift in Sources */,
 				A0635C7929B999D000AA82A5 /* AppetizerListCell.swift in Sources */,
 				A0A448A029BFD7B300CC7764 /* AppetizerListViewModel.swift in Sources */,
 				A00D8A3229C105C8004C563E /* Color+Ext.swift in Sources */,
 				A0635C7329B937B500AA82A5 /* AccountView.swift in Sources */,
+				A046EF0E29C4F19D000981C9 /* APButton.swift in Sources */,
 				A00D8A3029C10504004C563E /* LoadingView.swift in Sources */,
 				A0635C6529B9367400AA82A5 /* AppetizerTabView.swift in Sources */,
 				A0635C7B29B99EAA00AA82A5 /* NetworkManager.swift in Sources */,
