@@ -13,6 +13,7 @@
 		A00D8A3229C105C8004C563E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D8A3129C105C8004C563E /* Color+Ext.swift */; };
 		A00D8A3429C11433004C563E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D8A3329C11433004C563E /* RemoteImage.swift */; };
 		A00D8A3629C12134004C563E /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D8A3529C12134004C563E /* AppetizerDetailView.swift */; };
+		A01FAF8E29D24C6700DDFCEA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01FAF8D29D24C6700DDFCEA /* User.swift */; };
 		A046EF0E29C4F19D000981C9 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046EF0D29C4F19D000981C9 /* APButton.swift */; };
 		A046EF1029C4F368000981C9 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046EF0F29C4F368000981C9 /* XDismissButton.swift */; };
 		A0635C6329B9367400AA82A5 /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0635C6229B9367400AA82A5 /* AppetizersApp.swift */; };
@@ -37,6 +38,7 @@
 		A00D8A3129C105C8004C563E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		A00D8A3329C11433004C563E /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		A00D8A3529C12134004C563E /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		A01FAF8D29D24C6700DDFCEA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A046EF0B29C4E524000981C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A046EF0D29C4F19D000981C9 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		A046EF0F29C4F368000981C9 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				A0A4489D29BFBE2F00CC7764 /* APError.swift */,
 				A0A448A129BFE36400CC7764 /* Alert.swift */,
 				A004469729CA4AED00B97125 /* String+Ext.swift */,
+				A01FAF8D29D24C6700DDFCEA /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				A0A448A029BFD7B300CC7764 /* AppetizerListViewModel.swift in Sources */,
 				A00D8A3229C105C8004C563E /* Color+Ext.swift in Sources */,
 				A0635C7329B937B500AA82A5 /* AccountView.swift in Sources */,
+				A01FAF8E29D24C6700DDFCEA /* User.swift in Sources */,
 				A046EF0E29C4F19D000981C9 /* APButton.swift in Sources */,
 				A00D8A3029C10504004C563E /* LoadingView.swift in Sources */,
 				A0635C6529B9367400AA82A5 /* AppetizerTabView.swift in Sources */,
